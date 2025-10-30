@@ -1,0 +1,13 @@
+ipywidgets
+ipykernel
+transformers==4.57.1
+bitsandbytes==0.48.1
+accelerate==1.11.0
+hf-transfer
+tqdm==4.67.1
+peft==0.17.1
+scikit-learn==1.7.2
+ai-edge-torch==0.6.0
+# torch, torchvision 은 Colab 의 경우 미설치, 로컬의 경우 홈페이지 접속 후 CUDA 버전과 OS 에 맞게 설치할 것
+# torch 는 2.8 을 설치해야 함. 현재 2.9 가 stable 인데, ai-edge-torch 에서 지원 안함
+# https://pytorch.org/get-started/previous-versions/
